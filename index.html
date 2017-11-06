@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Launch Your Blog</title>
+
+		<link rel="stylesheet" href="reveal/css/reveal.css">
+		<link rel="stylesheet" href="reveal/gc/gc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+
+		<link rel="stylesheet" href="reveal/css/emoji.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal/css/print/pdf.css' : 'reveal/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Welcome Section -->
+				<section>
+				  <section data-markdown>
+						##Launch Your Blog
+
+						Welcome!
+				  </section>
+				  <section>
+				    <h2>About: Laura Eagin</h2>
+			             <p>Graphic designer turned web developer slash entrepreneur. DIY-enthusiast. Cat &amp; Foster Cat Mom.</p>
+			             <ul>
+				              <li class="fragment" style="margin-bottom: 10px;">Twitter: <a href="http://www.twitter.com/choolaura">@chooLaura</a></li>
+				              <li class="fragment" style="margin-bottom: 10px;">E-mail: <a href="mailto:laura@ellell.co">Laura@ellell.co</a></li>
+			             </ul>
+				  </section>
+					<section>
+				    <h2>About: Leeann Drees</h2>
+							<p>Web developer who loves to teach, read, and bake. Has unreasonably cute cats.</p>
+							<ul>
+								 <li class="fragment" style="margin-bottom: 10px;">Twitter: <a href="http://www.twitter.com/leeanndrees">@leeanndrees</a></li>
+								 <li class="fragment" style="margin-bottom: 10px;">E-mail: <a href="mailto:leeann@ellell.co">leeann@ellell.co</a></li>
+							</ul>
+				  </section>
+					<section>
+						<h2>About Us: ellell &amp; co.</h2>
+
+						<p>We work together at <a href="http://ellell.co" target="_blank">ellell &amp; co.</a>, the company we founded in 2014.</p>
+
+						<p>Every day we get to work with business owners and make WordPress work for them.</p>
+
+						<h2><i class="twa twa-dancers"></i></h2>
+					</section>
+					<section data-markdown>
+						##About Us: SheHive
+
+					</section>
+				  <section data-markdown>
+				    ##About You
+
+				    - What's your name?
+				    - What are you excited to learn?
+				    - What's your favorite blog?
+
+				  </section>
+				  <section data-markdown>
+				    ##About the Class: Agenda
+				  </section>
+					<section>
+						<h2>Follow Along with the Slides:</h2>
+						<em style="font-size: 200%;">https://goo.gl/WLbCRn</em>
+					</section>
+				</section>
+				<!-- End Welcome Section -->
+
+				<section>
+					<section data-markdown>
+						##Getting Started
+					</section>
+					<section data-markdown>
+						###Create a WordPress.com Account
+					</section>
+					<section data-markdown>
+
+					</section>
+				</section>
+
+
+
+
+				<section>
+				  <section>
+				    <h2>Thank you!</h2>
+				    <p>We're here for you if you have questions or need help!</p>
+				    <p><i class="twa twa-incoming-envelope"></i> leeann@ellell.co | laura@ellell.co</p>
+						<p><i class="twa twa-speech-balloon"></i> @ellellco | @SheHiveDET</p>
+				  </section>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="reveal/lib/js/head.min.js"></script>
+		<script src="reveal/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal/plugin/markdown/marked.js' },
+					{ src: 'reveal/plugin/markdown/markdown.js' },
+					{ src: 'reveal/plugin/notes/notes.js', async: true },
+					{ src: 'reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+		  function PresenterCue() {
+		    $( '.laura' ).append( '<div class="who"><i class="twa twa-large-orange-diamond"></i></div>' );
+				$( '.leeann').append( '<div class="who"><i class="twa twa-large-blue-diamond"></i></div>')
+		  }
+
+		  $(document).ready(PresenterCue());
+		</script>
+	</body>
+</html>
